@@ -11,3 +11,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -qq -y && \
         rm vault_${VAULT_VERSION}_linux_amd64.zip
 ENTRYPOINT ["/bin/bash"]
 
+CMD bash
+
