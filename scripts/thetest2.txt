@@ -1,0 +1,1 @@
+provide key as a param in form secret/Enter-Secret-Path/enter-secret-name/keyname

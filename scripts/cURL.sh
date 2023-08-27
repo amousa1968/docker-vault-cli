@@ -1,4 +1,4 @@
-#!#/bin/bash
+#!/bin/bash
 #!/usr/bin/env bash
 
 # Now using this child token, from your laptop/machine, you will be able to fetch the information from Vault server, using APIs.

@@ -1,6 +1,11 @@
 #!/bin/sh
 
-VAULT_BASE_URL=${VAULT_ADDR-https://address.of.vault.server}
+# Vault url and namespace environment variable
+export VAULT_ADDR=http://localhost:8200/
+export VAULT_TOKEN=value-of-token-or-an-authorized-token
+export VAULT_NAMESPACE=daa
+
+VAULT_BASE_URL=${VAULT_ADDR-http://localhost:8200}
 VAULT_TOKEN=${VAULT_TOKEN-value-of-token-or-an-authorized-token}
 VAULT_NAMESPACE=${VAULT_NAMESPACE-daa}
 
